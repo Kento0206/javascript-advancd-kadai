@@ -81,7 +81,7 @@ const gameOver = id => {
         const result = confirm(rankCheck(score));
         if(result == true){
             window.location.reload();
-        }},10000);
+        }},10);
 }
 
 // カウントダウンタイマー//
