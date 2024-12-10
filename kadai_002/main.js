@@ -93,7 +93,7 @@ const timer = () => {
         if(time <= 0){
             gameOver(id);
         }
-    },100);
+    },1000);
 };
 
 start.addEventListener('click', () => {
